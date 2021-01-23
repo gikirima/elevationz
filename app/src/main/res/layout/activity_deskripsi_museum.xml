@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeskripsiMuseum">
+
+    <Button
+        android:id="@+id/keliling"
+        android:fontFamily="@font/seguibl"
+        android:letterSpacing="0"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/louvre"
+        android:translationY="50dp"
+        android:background="@drawable/roundrectangle"
+        app:backgroundTint="@color/Aksen"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Mulai Keliling"
+        />
+
+    <ImageView
+        android:id="@+id/louvre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="louvre"
+        android:src="@drawable/louvre2"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backtolist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="backdark"
+        android:paddingLeft="24dp"
+        android:paddingTop="21dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="21dp"
+        android:src="@drawable/backbutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/louvre">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Primer"
+            android:orientation="vertical"
+            android:padding="37dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/seguibl"
+                android:text="@string/title"
+                android:textColor="@color/Sekunder"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/segoeui"
+                android:text="@string/lorem"
+                android:textColor="@color/Black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/segoeui"
+                android:text="@string/alamat"
+                android:textColor="@color/Black"
+                android:textSize="16sp" />
+
+            <RelativeLayout
+                android:id="@+id/layouotmaps"
+                android:layout_width="match_parent"
+                android:layout_height="315dp"
+                >
+
+                <fragment
+                    android:id="@+id/maps"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_marginBottom="30dp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpic"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang di"
+            android:textColor="@color/Primer"
+            android:fontFamily="@font/segoeuib"
+
+            android:layout_marginBottom="-10dp"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keliling Museum"
+            android:fontFamily="@font/seguibl"
+            android:textSize="34sp"
+            android:textColor="@color/Primer"
+            android:layout_marginBottom="15dp"
+            />
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maindesc1"
+            android:textSize="16sp"
+            android:textColor="@color/Primer"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/segoeui"
+            android:layout_marginBottom="12dp"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:src="@drawable/separator"
+            />
+        <TextView
+            android:id="@+id/text2"
+            android:lineHeight="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maindesc2"
+            android:textSize="16sp"
+            android:textColor="@color/Primer"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/segoeui"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="150dp"
+            />
+        <Button
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:id="@+id/pilih"
+            android:letterSpacing="0"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/roundrectangle"
+            android:shadowColor="@color/Aksen"
+            android:elevation="10dp"
+            android:fontFamily="@font/seguibl"
+            android:text="Pilih Museum"
+            android:textColor="@color/Primer"
+            android:textSize="19sp"
+            app:backgroundTint="@color/Aksen"
+            app:elevation="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

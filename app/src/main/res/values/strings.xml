@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">elevationz</string>
+    <string name="lorem">merupakan salah satu museum terbesar terbanyak dikunjungi dan merupakan monumen bersejarah di dunia. Menyimpan koleksi lukisan Leonardo da Vinci seperti Monalisa dan sebagainya. </string>
+    <string name="title">Museum Louvre</string>
+    <string name="maindesc2">Pilih museum yang anda sukai dari tombol\n <b>"PILIH MUSEUM"</b>
+    </string>
+    <string name="maindesc1">Anda akan merasakan nikmatnya berkeliling Museum terkenal secara virtual.</string>
+    <string name="pilihmuseumsuka"><br>PILIH MUSEUM YANG INGIN \n</br><br>ANDA KUNJUNGI</br></string>
+    <string name="pilihanrequest">Tidak menemukan Museum favorit anda?</string>
+    <string name="request">Request Museum</string>
+    <string name="alamat">Alamat : Jl.Maruhut Sitanggang no.303 Medan\nJam Buka : <b>9:00-16:00</b> (Hari Biasa)\n\t\t\t\t\t\t\t\t\t\t<b>12:00-16:00</b> (Hari Libur)</string>
+    <string name="kopi">Suka aplikasi ini? traktir saya kopi\n(Rp15.000,-)</string>
+    <string name="Monelis">Monelis</string>
+    <string name="MoneRize">MoneRize</string>
+    <string name="MonelisDesc">Merupakan lukisan minyak di atas kayu poplar yang dibuat oleh Leonardo da Vinci pada abad ke-16. Lukisan ini sering dianggap sebagai salah satu lukisan paling terkenal di dunia dan hanya sedikit karya seni lain yang menjadi pusat perhatian, studi, mitologi, dan parodi. Lukisan ini dimiliki oleh pemerintah Prancis dan dipamerkan di Musée du Louvre di Paris.</string>
+    <string name="monerizedesc">Sebuah karakter The Sympson yang membuat parodi sebagai Mona Lisa. Lukisan ini Digital Painting dan termasuk sebagai parodi Mona Lisa yang cukup terkenal.</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Elevationz" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+
+
+<!--        <item name="android:ambientShadowAlpha">1</item>-->
+<!--        <item name="android:spotShadowAlpha">1</item>-->
+
+        <item name="colorPrimary">@color/Primer</item>
+        <item name="colorSecondary">@color/Sekunder</item>
+        <item name="colorAccent">@color/Aksen</item>
+    </style>
+
+</resources>
